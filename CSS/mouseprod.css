@@ -1,0 +1,103 @@
+/* body {
+
+} */
+/* few of the main colors(blue)
+#72b4ff or #79c1ff */
+/* make sure to label whats in the header, main, and footer, to keep organized. It helps everyone, big time. */
+
+/* HEADER */
+#container{
+    background-color: navy;
+    margin:auto;
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 1200px;
+    min-height: 300px;
+}
+
+#header-all{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    padding: 10px;
+    background-color: green;
+}
+
+/* MAIN */
+
+.middleContainer {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height:30%;
+    color: white;
+}
+
+#slideshow {
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-color: lightgray;
+}
+
+#title {
+    color: white;
+}
+
+/* MICE */
+
+#g502 {
+    width: 14em;
+    height: 300px;
+}
+
+#jtech {
+    width: 10em;
+    height: 300px;
+}
+
+#laptop {
+    width: 10em;
+    height: 300px;
+}
+
+/* SOCIAL MEDIA */
+
+#youtube {
+    width: 40px;
+}
+
+#twitter {
+    width: 40px;
+}
+
+#instagram {
+    width: 50px;
+}
+
+#facebook {
+    width: 40px;
+}
+/* FOOTER */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ .right-foot{
+    float:right;
+ }
+ footer p {
+   float:left;
+ }

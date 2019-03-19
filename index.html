@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magic Mice</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="JS/index.js"></script>
+	<link rel="stylesheet" href="CSS/mouseprod.css">
+</head>
+<body>
+	<header id="header-all"> <!-- fixed header/nav-->
+		<img src="" id="logo">
+		<nav id="nav-header">
+			<a href="#">Home</a>
+			<a href="#">Product</a>
+			<a href="#">FAQ</a>
+		</nav>
+	</header>
+	<div id="container"> <!--contains everything main/slides/footer-->
+	<main> 
+		<div id="title">
+			<h1>Magic Mice</h1>
+			<p>
+				Our mice are the best mice you can get!
+			</p>
+		</div>
+				<div id="slideshow" class="carousel slide carousel-fade" data-ride="carousel">
+						<div class="carousel-inner">
+						  <div class="carousel-item active" data-interval="5000">
+                            <img src="images/G502-mouse.jpg" class="d-block w-100" alt="pic1" id="g502">
+						  </div>
+						  <div class="carousel-item" data-interval="5000">
+							<img src="images/jtech-mouse.jpg" class="d-block w-100" alt="pic2" id="jtech">
+						  </div>
+						  <div class="carousel-item" data-interval="5000">
+                            <img src="images/laptop-mouse.jpg" class="d-block w-100" alt="pic3" id="laptop">
+						  </div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="sr-only">Next</span>
+						</a>
+				</div>
+                <div class=middleContainer>
+                    <div class=firstColumn>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <section id=description>
+                        <p>
+                            Our product is available in stores now, complete with mouse pad.
+                        </p>
+                    </section>
+										<!-- i think we should remove this as an 'aside' tag then fix it with css later on. or nah? -ham -->
+                    <section id="socials">
+											<h3>Social Media:</h3>
+                        <a href="http://www.youtube.com"><img src="images/youtube.png" id="youtube"></a>
+                        <a href="http://www.twitter.com"><img src="images/twitter.png" id="twitter"></a>
+												<a href="http://www.instagram.com"><img src="images/instagram.png" id="instagram"></a>
+												<a href="http://www.facebook.com"><img src="images/facebook.png" id="facebook"></a>
+										</section>
+                    </div>
+                </div>
+	</main>
+	<footer>
+				<p>Copyright &copy; 2019</p>
+			<nav class="right-foot">
+				<a href="#">Contact</a>
+				<a href="#">Privacy</a>
+				<a href="#">Terms of Use</a>
+			</nav>
+	</footer>
+
+</div>
+</body>
+</html>
